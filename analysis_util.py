@@ -12,4 +12,4 @@ def plot_parity(res,fname,min_val=-0.05,max_val=2.05):
     plt.xlim(min_val, max_val)
     plt.ylim(min_val, max_val)
     plt.tight_layout()
-    plt.savefig(f'{fname}.png', dpi=300)
+    plt.savefig(f'{fname}', dpi=300)
