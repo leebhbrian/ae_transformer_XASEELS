@@ -6,7 +6,7 @@ class DenoisingAutoencoder(nn.Module):
     def __init__(
         self,
         seq_len: int = 451,
-        latent_dim: int = 16,
+        latent_dim: int = 8,
         hidden_dims=(64, 128, 256),
     ):
         super().__init__()
